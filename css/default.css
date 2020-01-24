@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.con{
+    margin: auto;
+    width: 1200px;
+    max-width: 80%;
+}
+
+section{
+    padding: 36px 0;
+}
+
+.underline::after{
+    content: "";
+    display: block;
+    width: 40px;
+    border: solid 1px black;
+    margin-bottom: 20px;
+}
+
+/* wrap-title */
+
+.section-title{
+    font-size: 20px;
+}
+
+.wrap-title p{
+    font-weight: 400;
+    font-size: 10px;
+}
+.wrap-title p.large{
+    font-size: 18px;
+}
+
