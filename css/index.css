@@ -59,6 +59,15 @@ header{
 
 
 /* section2 */
+.wrap-section2-text{
+    width: 570px;
+    float: left;
+}
+
+.wrap-section2-text .wrap-title{
+    margin-top: 60px;
+}
+
 .wrap-section2-text .wrap-title .underline::after{
     content: "";
     display: block;
@@ -68,8 +77,60 @@ header{
 
 .section2-text{
     font-size: 10px;
+    letter-spacing: .4pt;
     margin-top: 10px;
     font-weight: 100;
     color: grey;
 }
 
+.section2-img{
+    float: right;
+    height: 500px;
+    width: 470px;
+    background-image: url("http://oak.elitefingers.com/html/img/slider/image_2.jpg");
+}
+
+/* section3 */
+
+.section3-wrap{
+    margin-bottom: 50px;
+}
+
+.wrap-section3-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-chooselist{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+/* section5 */
+
+.wrap-section5-card{
+
+}
+
+.section5-card-left{
+    height: 325px;
+    background-color: aquamarine;
+    position: relative;
+    width: calc(100% - 50%);
+    float: left;
+}
+
+.section5-card-left-wrap-text{
+    position: absolute;
+
+}
+
+.section5-card-right{
+    height: 325px;
+    position: relative;
+}
+
+.section5-box{
+    
+    position: absolute;
+}
